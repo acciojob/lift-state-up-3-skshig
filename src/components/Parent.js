@@ -6,7 +6,7 @@ const Parent = () => {
     let [selectedOption, setSelectedOption] = useState("")
     return (
         <div className='parent'>
-            <div>Parent</div>
+            <h1>Parent</h1>
             <Child1 setSelectedOption = {setSelectedOption}
                     selectedOption = {selectedOption}/>
 
